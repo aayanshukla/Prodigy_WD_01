@@ -106,6 +106,27 @@ nav a:hover{
     background: #0a2a26;
 }
 
+.about{
+    background: #f0ebeb;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 25px;
+    border-radius: 25px;
+    padding: 30px;
+    opacity: 0.8;
+
+}
+
+.about h2{
+    color: #0B1215;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
 .media-icons{
     display: flex;
     justify-content: center;
@@ -127,4 +148,19 @@ nav a:hover{
 
 .media-icons a:hover{
     transform: scale(1.5);
+}
+
+iframe{
+    
+    margin: 50px;
+    border-radius: 50px;
+}
+
+.footer {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    margin: 25px;
+    border-radius: 25px;
 }
